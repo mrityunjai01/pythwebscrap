@@ -1,5 +1,8 @@
 import os
-from h import Final
+try:
+    from h import Final
+except:
+    print("we need all three files f.py h.py i.py in same folder")
 yrs = ['2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019']
 mths = [
         "January",
@@ -55,3 +58,5 @@ def start():
         i+=1
         
     
+start()
+i = input()
